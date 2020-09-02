@@ -20,6 +20,14 @@ A (Destructured) Express Node PostgreSQL App w. Controllers
 2. Move the business logic of the orders in the `controllers/orders.js` as it's been done for users.
 3. (OPTIONAL) Look into [sequelize](https://sequelize.org/master/), an ORM for SQL
 
+#### Q: Why create controllers in a project?
+
+A: Controllers allow us to make:
+
+- 1 route, chained with promises
+- With multiple methods below the above 1 route
+- You can either use promises or async/await in the controllers
+
 #### Curl Requests:
 
 ```
